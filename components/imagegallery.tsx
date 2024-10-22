@@ -37,7 +37,6 @@ export default function ImageGallery({ images }: iAppProps) {
           </div>
         ))}
       </div>
- {/* Main Image */}
  <div className="relative overflow-hidden rounded-lg lg:col-span-4 ">
         <Image
           src={urlFor(bigImage).url()}
